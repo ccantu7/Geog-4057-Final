@@ -1,1 +1,5 @@
 The Python notebook documenting the process is named FinalProject.ipynb, the Python code is named FinalProject.py, the Python toolbox is named FinalProject1_json.pyt, and the layout pdf is named Geog4057Final.pdf. The rest of the files were created in the process of running the code and creating the layout.
+
+The code was developed by taking the publicaly availble 2018 Land Value for New Orleans JSON data from data.gov. Since the file contained data in the form of Well-Known Text, it had to be edited before it could be used in GIS contexts. The Python code provided converts this unusable data, writes fields for a feature class, creates a feature class, and creates a geoprocessing tool that allows other users to input their own JSON file data and convert it to a usuable shapefile.
+
+The process of creating the code is documented in the .ipynb file. The final code and toolbox are FinalProject.py and FinalProject1_json.pyt respectively. The tool was run to create a map layout displaying differentiated zones of the New Orleans area according to the data acquired from data.gov, viewable as the pdf Geog4057Final.pdf.
